@@ -6,7 +6,7 @@ Board Game using Ruby on Rails
 
 * Rails version - Rails 7.0.8
 
-* Sqlite Database
+* Sqlite Database(As of now)
 
 * ...
 
