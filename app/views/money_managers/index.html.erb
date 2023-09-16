@@ -1,0 +1,14 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>Money managers</h1>
+
+<div id="money_managers">
+  <% @money_managers.each do |money_manager| %>
+    <%= render money_manager %>
+    <p>
+      <%= link_to "Show this money manager", money_manager %>
+    </p>
+  <% end %>
+</div>
+
+<%= link_to "New money manager", new_money_manager_path %>

@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @money_manager %>
+
+<div>
+  <%= link_to "Edit this money manager", edit_money_manager_path(@money_manager) %> |
+  <%= link_to "Back to money managers", money_managers_path %>
+
+  <%= button_to "Destroy this money manager", @money_manager, method: :delete %>
+</div>
